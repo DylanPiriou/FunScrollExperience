@@ -12,22 +12,21 @@ html, body, main{
     height: 100%;
     background: #f7e8e8;
 
-    .container{
-        padding: 5vw;
-
-        h1{
-            font-size: 5rem;
-        }
-        
-        p{
-            width: 50%;
-            line-height: 170%;
-        }
-    }
-
-    
     section {
         height: 100vh;
+        
+        .container{
+            padding: 5vw;
+    
+            h1{
+                font-size: 5rem;
+            }
+            
+            p{
+                width: 50%;
+                line-height: 170%;
+            }
+        }
     }
     
     .sticky-container{

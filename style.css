@@ -11,18 +11,18 @@ html, body, main {
   height: 100%;
   background: #f7e8e8;
 }
-html .container, body .container, main .container {
-  padding: 5vw;
-}
-html .container h1, body .container h1, main .container h1 {
-  font-size: 5rem;
-}
-html .container p, body .container p, main .container p {
-  width: 50%;
-  line-height: 170%;
-}
 html section, body section, main section {
   height: 100vh;
+}
+html section .container, body section .container, main section .container {
+  padding: 5vw;
+}
+html section .container h1, body section .container h1, main section .container h1 {
+  font-size: 5rem;
+}
+html section .container p, body section .container p, main section .container p {
+  width: 50%;
+  line-height: 170%;
 }
 html .sticky-container, body .sticky-container, main .sticky-container {
   height: 300vh;
