@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Space Mono", monospace;
+}
+
+html, body, main {
+  width: 100%;
+  height: 100%;
+  background: #f7e8e8;
+}
+html .container, body .container, main .container {
+  padding: 5vw;
+}
+html .container h1, body .container h1, main .container h1 {
+  font-size: 5rem;
+}
+html .container p, body .container p, main .container p {
+  width: 50%;
+  line-height: 170%;
+}
+html section, body section, main section {
+  height: 100vh;
+}
+html .sticky-container, body .sticky-container, main .sticky-container {
+  height: 300vh;
+}
+html .sticky-container .sticky, body .sticky-container .sticky, main .sticky-container .sticky {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+html .sticky-container .sticky .scroll-section, body .sticky-container .sticky .scroll-section, main .sticky-container .sticky .scroll-section {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 300vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5vw;
+  will-change: transform;
+}
+html .sticky-container .sticky .scroll-section img, body .sticky-container .sticky .scroll-section img, main .sticky-container .sticky .scroll-section img {
+  width: 400px;
+  height: 80%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=style.css.map */
